@@ -1,0 +1,818 @@
+<html xmlns:o="urn:schemas-microsoft-com:office:office"
+xmlns:x="urn:schemas-microsoft-com:office:excel"
+xmlns="http://www.w3.org/TR/REC-html40">
+
+<head>
+<meta http-equiv=Content-Type content="text/html; charset=windows-1252">
+<meta name=ProgId content=Excel.Sheet>
+<meta name=Generator content="Microsoft Excel 11">
+<link rel=File-List href="default_files/filelist.xml">
+<link rel=Edit-Time-Data href="default_files/editdata.mso">
+<link rel=OLE-Object-Data href="default_files/oledata.mso">
+<!--[if gte mso 9]><xml>
+ <o:DocumentProperties>
+  <o:LastAuthor>Chris McClurken</o:LastAuthor>
+  <o:LastPrinted>2007-12-08T17:35:41Z</o:LastPrinted>
+  <o:LastSaved>2007-12-08T18:38:47Z</o:LastSaved>
+  <o:Version>11.8132</o:Version>
+ </o:DocumentProperties>
+</xml><![endif]-->
+<style>
+<!--table
+	{mso-displayed-decimal-separator:"\.";
+	mso-displayed-thousand-separator:"\,";}
+@page
+	{margin:1.0in .75in 1.0in .75in;
+	mso-header-margin:.5in;
+	mso-footer-margin:.5in;
+	mso-page-orientation:landscape;}
+tr
+	{mso-height-source:auto;}
+col
+	{mso-width-source:auto;}
+br
+	{mso-data-placement:same-cell;}
+.style0
+	{mso-number-format:General;
+	text-align:general;
+	vertical-align:bottom;
+	white-space:nowrap;
+	mso-rotate:0;
+	mso-background-source:auto;
+	mso-pattern:auto;
+	color:windowtext;
+	font-size:10.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:Arial;
+	mso-generic-font-family:auto;
+	mso-font-charset:0;
+	border:none;
+	mso-protection:locked visible;
+	mso-style-name:Normal;
+	mso-style-id:0;}
+td
+	{mso-style-parent:style0;
+	padding-top:1px;
+	padding-right:1px;
+	padding-left:1px;
+	mso-ignore:padding;
+	color:windowtext;
+	font-size:10.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:Arial;
+	mso-generic-font-family:auto;
+	mso-font-charset:0;
+	mso-number-format:General;
+	text-align:general;
+	vertical-align:bottom;
+	border:none;
+	mso-background-source:auto;
+	mso-pattern:auto;
+	mso-protection:locked visible;
+	white-space:nowrap;
+	mso-rotate:0;}
+.xl24
+	{mso-style-parent:style0;
+	font-size:9.0pt;}
+.xl25
+	{mso-style-parent:style0;
+	font-size:9.0pt;
+	text-align:center;}
+.xl26
+	{mso-style-parent:style0;
+	color:white;
+	font-size:9.0pt;}
+.xl27
+	{mso-style-parent:style0;
+	color:white;
+	font-size:9.0pt;
+	text-align:center;}
+.xl28
+	{mso-style-parent:style0;
+	font-size:9.0pt;
+	font-weight:700;
+	font-style:italic;
+	text-decoration:underline;
+	text-underline-style:single;}
+.xl29
+	{mso-style-parent:style0;
+	font-size:9.0pt;
+	font-weight:700;}
+.xl30
+	{mso-style-parent:style0;
+	font-size:9.0pt;
+	font-weight:700;
+	text-decoration:underline;
+	text-underline-style:single;}
+.xl31
+	{mso-style-parent:style0;
+	font-size:9.0pt;
+	font-weight:700;
+	text-decoration:underline;
+	text-underline-style:single;
+	text-align:center;}
+.xl32
+	{mso-style-parent:style0;
+	font-size:9.0pt;
+	font-weight:700;
+	font-family:Arial, sans-serif;
+	mso-font-charset:0;}
+.xl33
+	{mso-style-parent:style0;
+	font-size:9.0pt;
+	font-weight:700;
+	font-family:Arial, sans-serif;
+	mso-font-charset:0;
+	text-align:center;}
+.xl34
+	{mso-style-parent:style0;
+	font-size:9.0pt;
+	background:silver;
+	mso-pattern:auto none;}
+.xl35
+	{mso-style-parent:style0;
+	font-size:9.0pt;
+	text-align:center;
+	background:silver;
+	mso-pattern:auto none;}
+.xl36
+	{mso-style-parent:style0;
+	font-size:9.0pt;
+	font-weight:700;
+	background:silver;
+	mso-pattern:auto none;}
+.xl37
+	{mso-style-parent:style0;
+	font-size:9.0pt;
+	font-weight:700;
+	font-family:Arial, sans-serif;
+	mso-font-charset:0;
+	text-align:center;
+	background:silver;
+	mso-pattern:auto none;}
+.xl38
+	{mso-style-parent:style0;
+	font-size:9.0pt;
+	font-family:Arial, sans-serif;
+	mso-font-charset:0;
+	text-align:center;
+	background:silver;
+	mso-pattern:auto none;}
+.xl39
+	{mso-style-parent:style0;
+	font-size:9.0pt;
+	font-family:Arial, sans-serif;
+	mso-font-charset:0;
+	text-align:center;}
+.xl40
+	{mso-style-parent:style0;
+	background:silver;
+	mso-pattern:auto none;}
+.xl41
+	{mso-style-parent:style0;
+	font-size:9.0pt;
+	mso-number-format:"Short Time";
+	text-align:left;}
+.xl42
+	{mso-style-parent:style0;
+	font-size:9.0pt;
+	mso-number-format:"Short Time";
+	text-align:left;
+	background:silver;
+	mso-pattern:auto none;}
+.xl43
+	{mso-style-parent:style0;
+	font-weight:700;
+	font-family:Arial, sans-serif;
+	mso-font-charset:0;}
+-->
+</style>
+<!--[if gte mso 9]><xml>
+ <x:ExcelWorkbook>
+  <x:ExcelWorksheets>
+   <x:ExcelWorksheet>
+    <x:Name>default</x:Name>
+    <x:WorksheetOptions>
+     <x:Print>
+      <x:ValidPrinterInfo/>
+      <x:PaperSizeIndex>3</x:PaperSizeIndex>
+      <x:HorizontalResolution>600</x:HorizontalResolution>
+      <x:VerticalResolution>600</x:VerticalResolution>
+     </x:Print>
+     <x:Zoom>118</x:Zoom>
+     <x:Selected/>
+     <x:DoNotDisplayGridlines/>
+     <x:TopRowVisible>3</x:TopRowVisible>
+     <x:Panes>
+      <x:Pane>
+       <x:Number>3</x:Number>
+       <x:ActiveRow>41</x:ActiveRow>
+       <x:ActiveCol>8</x:ActiveCol>
+       <x:RangeSelection>$A$8:$I$42</x:RangeSelection>
+      </x:Pane>
+     </x:Panes>
+     <x:ProtectContents>False</x:ProtectContents>
+     <x:ProtectObjects>False</x:ProtectObjects>
+     <x:ProtectScenarios>False</x:ProtectScenarios>
+    </x:WorksheetOptions>
+   </x:ExcelWorksheet>
+  </x:ExcelWorksheets>
+  <x:WindowHeight>12270</x:WindowHeight>
+  <x:WindowWidth>19035</x:WindowWidth>
+  <x:WindowTopX>0</x:WindowTopX>
+  <x:WindowTopY>15</x:WindowTopY>
+  <x:ProtectStructure>False</x:ProtectStructure>
+  <x:ProtectWindows>False</x:ProtectWindows>
+ </x:ExcelWorkbook>
+ <x:ExcelName>
+  <x:Name>Print_Area</x:Name>
+  <x:SheetIndex>1</x:SheetIndex>
+  <x:Formula>=default!$A$8:$I$42</x:Formula>
+ </x:ExcelName>
+</xml><![endif]-->
+</head>
+
+<body link=blue vlink=purple>
+<!--The following information was generated by Microsoft Office Excel's Publish
+as Web Page wizard.--><!--If the same item is republished from Excel, all information between the DIV
+tags will be replaced.--><!-----------------------------><!--START OF OUTPUT FROM EXCEL PUBLISH AS WEB PAGE WIZARD --><!----------------------------->
+
+<table x:str border=0 cellpadding=0 cellspacing=0 width=1397 style='border-collapse:
+ collapse;table-layout:fixed;width:1050pt'>
+ <col class=xl24 width=29 style='mso-width-source:userset;mso-width-alt:1060;
+ width:22pt'>
+ <col class=xl24 width=250 style='mso-width-source:userset;mso-width-alt:9142;
+ width:188pt'>
+ <col class=xl24 width=106 style='mso-width-source:userset;mso-width-alt:3876;
+ width:80pt'>
+ <col class=xl24 width=110 style='mso-width-source:userset;mso-width-alt:4022;
+ width:83pt'>
+ <col class=xl24 width=116 style='mso-width-source:userset;mso-width-alt:4242;
+ width:87pt'>
+ <col class=xl24 width=105 style='mso-width-source:userset;mso-width-alt:3840;
+ width:79pt'>
+ <col class=xl25 width=113 style='mso-width-source:userset;mso-width-alt:4132;
+ width:85pt'>
+ <col class=xl24 width=99 style='mso-width-source:userset;mso-width-alt:3620;
+ width:74pt'>
+ <col class=xl24 width=106 style='mso-width-source:userset;mso-width-alt:3876;
+ width:80pt'>
+ <col class=xl24 width=85 style='mso-width-source:userset;mso-width-alt:3108;
+ width:64pt'>
+ <col class=xl24 width=139 span=2 style='mso-width-source:userset;mso-width-alt:
+ 5083;width:104pt'>
+ <tr class=xl26 height=16 style='mso-height-source:userset;height:12.0pt'>
+  <td colspan=4 height=16 class=xl28 width=495 style='height:12.0pt;width:373pt'>DECEMBER
+  8, 2007 - 6th Annual All Star Porn Jam at the Lakepointe Bar and Grill</td>
+  <td class=xl28 width=116 style='width:87pt'></td>
+  <td class=xl26 width=105 style='width:79pt'></td>
+  <td class=xl27 width=113 style='width:85pt'></td>
+  <td class=xl26 width=99 style='width:74pt'></td>
+  <td class=xl26 width=106 style='width:80pt'></td>
+  <td class=xl26 width=85 style='width:64pt'></td>
+  <td class=xl26 width=139 style='width:104pt'></td>
+  <td class=xl26 width=139 style='width:104pt'></td>
+ </tr>
+ <tr class=xl24 height=16 style='mso-height-source:userset;height:12.0pt'>
+  <td colspan=6 height=16 class=xl29 style='height:12.0pt'>Please direct slot
+  or personnel changes or requests and song requests to Chris -
+  pondscum@underride.net</td>
+  <td class=xl25></td>
+  <td colspan=5 class=xl24 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr class=xl24 height=16 style='mso-height-source:userset;height:12.0pt'>
+  <td colspan=6 height=16 class=xl29 style='height:12.0pt'>or contact him at
+  www.myspace.com/pndscm or www.myspace.com/aspj</td>
+  <td class=xl25></td>
+  <td colspan=5 class=xl24 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr class=xl24 height=17 style='mso-height-source:userset;height:12.75pt'>
+  <td colspan=3 height=17 class=xl43 style='height:12.75pt'>A name in bold
+  denotes the contact for that song</td>
+  <td colspan=3 class=xl29 style='mso-ignore:colspan'></td>
+  <td class=xl25></td>
+  <td colspan=5 class=xl24 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr class=xl24 height=16 style='mso-height-source:userset;height:12.0pt'>
+  <td height=16 class=xl29 style='height:12.0pt'></td>
+  <td colspan=5 class=xl24 style='mso-ignore:colspan'></td>
+  <td class=xl25></td>
+  <td colspan=5 class=xl24 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr class=xl30 height=16 style='mso-height-source:userset;height:12.0pt'>
+  <td height=16 class=xl30 style='height:12.0pt'></td>
+  <td class=xl30>Song</td>
+  <td class=xl31>Drums</td>
+  <td class=xl31>Bass</td>
+  <td class=xl31>Vocals</td>
+  <td class=xl31>Guitar</td>
+  <td class=xl31>Guitar</td>
+  <td class=xl31>Guitar</td>
+  <td class=xl31>Keys?</td>
+  <td colspan=3 class=xl24 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr class=xl30 height=16 style='mso-height-source:userset;height:12.0pt'>
+  <td height=16 colspan=2 class=xl30 style='height:12.0pt;mso-ignore:colspan'></td>
+  <td colspan=7 class=xl31 style='mso-ignore:colspan'></td>
+  <td class=xl29></td>
+  <td class=xl24></td>
+  <td class=xl30></td>
+ </tr>
+ <tr class=xl24 height=16 style='mso-height-source:userset;height:12.0pt'>
+  <td height=16 class=xl30 style='height:12.0pt'><a name="Print_Area"></a></td>
+  <td class=xl30>9:15 - 10:15<span style='mso-spacerun:yes'>  </span>SET ONE</td>
+  <td colspan=7 class=xl25 style='mso-ignore:colspan'></td>
+  <td colspan=2 class=xl29 style='mso-ignore:colspan'></td>
+  <td class=xl24></td>
+ </tr>
+ <tr class=xl24 height=16 style='mso-height-source:userset;height:12.0pt'>
+  <td height=16 class=xl29 align=right style='height:12.0pt' x:num>1</td>
+  <td class=xl24>Strutter - Kiss</td>
+  <td class=xl25>Chris Hall</td>
+  <td class=xl25>Pat Trash</td>
+  <td class=xl33>Rockstar Bob</td>
+  <td class=xl25>Despondent Bob</td>
+  <td colspan=3 class=xl25 style='mso-ignore:colspan'></td>
+  <td class=xl24></td>
+  <td class=xl29></td>
+  <td class=xl24></td>
+ </tr>
+ <tr class=xl34 height=16 style='mso-height-source:userset;height:12.0pt'>
+  <td height=16 class=xl36 align=right style='height:12.0pt' x:num>2</td>
+  <td class=xl34>Lick It Up - Kiss</td>
+  <td class=xl35>Chris Hall</td>
+  <td class=xl35>Pat Trash</td>
+  <td class=xl37>Rockstar Bob</td>
+  <td class=xl35>Despondent Bob</td>
+  <td colspan=3 class=xl35 style='mso-ignore:colspan'>&nbsp;</td>
+  <td class=xl34>&nbsp;</td>
+  <td class=xl36>&nbsp;</td>
+  <td class=xl34>&nbsp;</td>
+ </tr>
+ <tr class=xl24 height=16 style='mso-height-source:userset;height:12.0pt'>
+  <td height=16 class=xl29 align=right style='height:12.0pt' x:num>3</td>
+  <td class=xl24>Lay It Down - Ratt</td>
+  <td class=xl33>Sunit</td>
+  <td class=xl25>Johnny</td>
+  <td class=xl25>Jeff G.</td>
+  <td class=xl25>Hodgy</td>
+  <td class=xl25>Mike Milsom</td>
+  <td colspan=2 class=xl25 style='mso-ignore:colspan'></td>
+  <td class=xl24></td>
+  <td class=xl29></td>
+  <td class=xl24></td>
+ </tr>
+ <tr class=xl34 height=16 style='mso-height-source:userset;height:12.0pt'>
+  <td height=16 class=xl36 align=right style='height:12.0pt' x:num>4</td>
+  <td class=xl34>Sister Christian - Night Ranger</td>
+  <td class=xl38>JJ</td>
+  <td class=xl38>Bloody</td>
+  <td class=xl37>Rain Rocks</td>
+  <td class=xl35>Hodgy</td>
+  <td colspan=2 class=xl35 style='mso-ignore:colspan'>&nbsp;</td>
+  <td class=xl35>Metalgoddess</td>
+  <td class=xl34>&nbsp;</td>
+  <td class=xl36>&nbsp;</td>
+  <td class=xl34>&nbsp;</td>
+ </tr>
+ <tr class=xl24 height=16 style='mso-height-source:userset;height:12.0pt'>
+  <td height=16 class=xl29 align=right style='height:12.0pt' x:num>5</td>
+  <td class=xl24>Hit Me With Your Best Shot -<span style='mso-spacerun:yes'> 
+  </span>Pat Benatar</td>
+  <td class=xl25>Dbl Bass Dale</td>
+  <td class=xl25>Bleez</td>
+  <td class=xl25>Pat</td>
+  <td class=xl39>Mike Lewin</td>
+  <td class=xl25>Hodgy</td>
+  <td class=xl33>AMZ (triangle)</td>
+  <td class=xl25></td>
+  <td class=xl24></td>
+  <td class=xl29></td>
+  <td class=xl24></td>
+ </tr>
+ <tr class=xl34 height=16 style='mso-height-source:userset;height:12.0pt'>
+  <td height=16 class=xl36 align=right style='height:12.0pt' x:num>6</td>
+  <td class=xl34>Red Hot - Motley Jü</td>
+  <td class=xl38>Sunit</td>
+  <td class=xl35>Dr. Pondscum</td>
+  <td class=xl37>Rev</td>
+  <td class=xl35>Hodgy</td>
+  <td colspan=3 class=xl35 style='mso-ignore:colspan'>&nbsp;</td>
+  <td colspan=3 class=xl34 style='mso-ignore:colspan'>&nbsp;</td>
+ </tr>
+ <tr class=xl24 height=16 style='mso-height-source:userset;height:12.0pt'>
+  <td height=16 class=xl29 align=right style='height:12.0pt' x:num>7</td>
+  <td class=xl24>Come On And Dance - Motley Jü</td>
+  <td class=xl39>Sunit</td>
+  <td class=xl25>Dr. Pondscum</td>
+  <td class=xl33>Rev</td>
+  <td class=xl25>Hodgy</td>
+  <td colspan=3 class=xl25 style='mso-ignore:colspan'></td>
+  <td class=xl24></td>
+  <td class=xl29></td>
+  <td class=xl24></td>
+ </tr>
+ <tr class=xl34 height=16 style='mso-height-source:userset;height:12.0pt'>
+  <td height=16 class=xl36 align=right style='height:12.0pt' x:num>8</td>
+  <td class=xl34>Piece Of Your Action - Motley Jü</td>
+  <td class=xl38>Sunit</td>
+  <td class=xl35>Dr. Pondscum</td>
+  <td class=xl37>Rev</td>
+  <td class=xl35>Hodgy</td>
+  <td colspan=3 class=xl35 style='mso-ignore:colspan'>&nbsp;</td>
+  <td class=xl34>&nbsp;</td>
+  <td class=xl36>&nbsp;</td>
+  <td class=xl34>&nbsp;</td>
+ </tr>
+ <tr height=16 style='mso-height-source:userset;height:12.0pt'>
+  <td height=16 class=xl29 align=right style='height:12.0pt' x:num>9</td>
+  <td class=xl24>To Hell With The Devil - Stryper</td>
+  <td class=xl33>Sunit</td>
+  <td class=xl25>Johnny</td>
+  <td class=xl25>Rawkgrrl</td>
+  <td class=xl25>Hodgy</td>
+  <td class=xl25>Mike Milsom</td>
+  <td class=xl25>Allen Matilla</td>
+  <td class=xl25>Rev 2nd vox</td>
+  <td class=xl24></td>
+  <td class=xl29></td>
+  <td class=xl24></td>
+ </tr>
+ <tr height=16 style='mso-height-source:userset;height:12.0pt'>
+  <td height=16 class=xl29 style='height:12.0pt'></td>
+  <td class=xl24></td>
+  <td colspan=7 class=xl25 style='mso-ignore:colspan'></td>
+  <td class=xl24></td>
+  <td class=xl29></td>
+  <td class=xl24></td>
+ </tr>
+ <tr height=16 style='mso-height-source:userset;height:12.0pt'>
+  <td height=16 class=xl29 style='height:12.0pt'></td>
+  <td class=xl30>10:30 - 11:30 SET TWO</td>
+  <td colspan=7 class=xl25 style='mso-ignore:colspan'></td>
+  <td class=xl24></td>
+  <td class=xl29></td>
+  <td class=xl24></td>
+ </tr>
+ <tr height=16 style='mso-height-source:userset;height:12.0pt'>
+  <td height=16 class=xl29 align=right style='height:12.0pt' x:num>1</td>
+  <td class=xl24>Your Ass Is A Gateway Drug</td>
+  <td class=xl25>Sunit</td>
+  <td class=xl25>Remy</td>
+  <td class=xl33>Princess</td>
+  <td class=xl39>Princess</td>
+  <td class=xl25>Dr. Pondscum</td>
+  <td colspan=2 class=xl25 style='mso-ignore:colspan'></td>
+  <td class=xl24></td>
+  <td class=xl29></td>
+  <td class=xl24></td>
+ </tr>
+ <tr class=xl40 height=16 style='mso-height-source:userset;height:12.0pt'>
+  <td height=16 class=xl36 align=right style='height:12.0pt' x:num>2</td>
+  <td class=xl34>Angry Inch - The Angry Inch</td>
+  <td class=xl35>Double A</td>
+  <td class=xl35>Kenny Alton</td>
+  <td class=xl38>Hedwig Robinson</td>
+  <td class=xl35>Patrick Mackinnon</td>
+  <td class=xl37>Dr. Pondscum</td>
+  <td colspan=2 class=xl35 style='mso-ignore:colspan'>&nbsp;</td>
+  <td colspan=3 class=xl34 style='mso-ignore:colspan'>&nbsp;</td>
+ </tr>
+ <tr height=16 style='mso-height-source:userset;height:12.0pt'>
+  <td height=16 class=xl29 align=right style='height:12.0pt' x:num>3</td>
+  <td class=xl24>Midnight Radio - The Angry Inch</td>
+  <td class=xl25>Double A</td>
+  <td class=xl25>Kenny Alton</td>
+  <td class=xl25>Hedwig Robinson</td>
+  <td class=xl39>Patrick Mackinnon</td>
+  <td class=xl33>Dr. Pondscum</td>
+  <td colspan=2 class=xl25 style='mso-ignore:colspan'></td>
+  <td class=xl24></td>
+  <td class=xl29></td>
+  <td class=xl24></td>
+ </tr>
+ <tr class=xl40 height=16 style='mso-height-source:userset;height:12.0pt'>
+  <td height=16 class=xl36 align=right style='height:12.0pt' x:num>4</td>
+  <td class=xl34>Cemetery Gates - Pantera</td>
+  <td class=xl35>Chief Longsac</td>
+  <td class=xl38>Frank The Hammer</td>
+  <td class=xl37>Metalgoddess</td>
+  <td class=xl35>Hodgy</td>
+  <td colspan=3 class=xl35 style='mso-ignore:colspan'>&nbsp;</td>
+  <td colspan=3 class=xl34 style='mso-ignore:colspan'>&nbsp;</td>
+ </tr>
+ <tr height=16 style='mso-height-source:userset;height:12.0pt'>
+  <td height=16 class=xl29 align=right style='height:12.0pt' x:num>5</td>
+  <td class=xl24>Tonight I'm Gonna Rock You, Tonight ST</td>
+  <td class=xl25>Hodgy</td>
+  <td class=xl33>Frank The Hammer</td>
+  <td class=xl25>Frank The Hammer</td>
+  <td class=xl39>Stump</td>
+  <td class=xl39></td>
+  <td class=xl25></td>
+  <td class=xl25>Metalgoddess</td>
+  <td colspan=3 class=xl24 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr class=xl40 height=16 style='mso-height-source:userset;height:12.0pt'>
+  <td height=16 class=xl36 align=right style='height:12.0pt' x:num>6</td>
+  <td class=xl34>Ain't Talkin' 'Bout Love - Van Halen</td>
+  <td class=xl35>Hodgy</td>
+  <td class=xl37>Frank The Hammer</td>
+  <td class=xl35>Metalgoddess</td>
+  <td class=xl38>Stump</td>
+  <td class=xl38>&nbsp;</td>
+  <td colspan=2 class=xl35 style='mso-ignore:colspan'>&nbsp;</td>
+  <td colspan=3 class=xl34 style='mso-ignore:colspan'>&nbsp;</td>
+ </tr>
+ <tr height=16 style='mso-height-source:userset;height:12.0pt'>
+  <td height=16 class=xl29 align=right style='height:12.0pt' x:num>7</td>
+  <td class=xl24>Cold Blood - Kix</td>
+  <td class=xl25>Ginny</td>
+  <td class=xl25>Andrea Jasek</td>
+  <td class=xl25>Jeff G.</td>
+  <td class=xl33>Hodgy</td>
+  <td colspan=3 class=xl25 style='mso-ignore:colspan'></td>
+  <td colspan=3 class=xl24 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr class=xl40 height=16 style='mso-height-source:userset;height:12.0pt'>
+  <td height=16 class=xl36 align=right style='height:12.0pt' x:num>8</td>
+  <td class=xl34>Kiss Me Deadly - Lita Ford</td>
+  <td class=xl35>Tate Erickson</td>
+  <td class=xl35>Metalgoddess</td>
+  <td class=xl37>Brandy</td>
+  <td class=xl38>Andrea Jasek</td>
+  <td class=xl35>Dan Tiesan</td>
+  <td class=xl35>Liz (2nd Vox)</td>
+  <td class=xl35>Travis</td>
+  <td colspan=3 class=xl34 style='mso-ignore:colspan'>&nbsp;</td>
+ </tr>
+ <tr height=16 style='mso-height-source:userset;height:12.0pt'>
+  <td height=16 class=xl29 align=right style='height:12.0pt' x:num>9</td>
+  <td class=xl24>Close My Eyes Forever - Lita Ford</td>
+  <td class=xl39>Sunit</td>
+  <td class=xl25>Metalgoddess</td>
+  <td class=xl33>Brandy&amp;Bruce</td>
+  <td class=xl39>Glen Cannon</td>
+  <td class=xl39>Dan Tiesan</td>
+  <td class=xl25></td>
+  <td class=xl25>Travis</td>
+  <td colspan=3 class=xl24 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr class=xl40 height=16 style='mso-height-source:userset;height:12.0pt'>
+  <td height=16 class=xl36 align=right style='height:12.0pt' x:num>10</td>
+  <td class=xl34>Iron Dick - Coven</td>
+  <td class=xl35>Noa</td>
+  <td class=xl35>Larry</td>
+  <td class=xl35>Larry</td>
+  <td class=xl37>Ben Litz</td>
+  <td colspan=3 class=xl35 style='mso-ignore:colspan'>&nbsp;</td>
+  <td colspan=3 class=xl34 style='mso-ignore:colspan'>&nbsp;</td>
+ </tr>
+ <tr height=16 style='mso-height-source:userset;height:12.0pt'>
+  <td height=16 class=xl32 align=right style='height:12.0pt' x:num>11</td>
+  <td class=xl24>Metal Health - Quiet Riot</td>
+  <td class=xl25>Noa</td>
+  <td class=xl25>Larry</td>
+  <td class=xl25>Larry</td>
+  <td class=xl33>Ben Litz</td>
+  <td colspan=3 class=xl25 style='mso-ignore:colspan'></td>
+  <td colspan=3 class=xl24 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=16 style='mso-height-source:userset;height:12.0pt'>
+  <td height=16 class=xl29 style='height:12.0pt'></td>
+  <td class=xl24></td>
+  <td colspan=3 class=xl25 style='mso-ignore:colspan'></td>
+  <td class=xl33></td>
+  <td colspan=3 class=xl25 style='mso-ignore:colspan'></td>
+  <td colspan=3 class=xl24 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=16 style='mso-height-source:userset;height:12.0pt'>
+  <td height=16 class=xl29 style='height:12.0pt'></td>
+  <td class=xl30>11:30 - 12:30 SET THREE</td>
+  <td colspan=7 class=xl25 style='mso-ignore:colspan'></td>
+  <td colspan=3 class=xl24 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=16 style='mso-height-source:userset;height:12.0pt'>
+  <td height=16 class=xl29 align=right style='height:12.0pt' x:num>1</td>
+  <td class=xl24>Talk Dirty To Me - Poison</td>
+  <td class=xl25>Revster</td>
+  <td class=xl33>MetalGoddess</td>
+  <td class=xl25>Bret</td>
+  <td class=xl39>Glen Cannon</td>
+  <td colspan=2 class=xl25 style='mso-ignore:colspan'></td>
+  <td class=xl25>Spanx 2nd vox</td>
+  <td colspan=3 class=xl24 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr class=xl40 height=16 style='mso-height-source:userset;height:12.0pt'>
+  <td height=16 class=xl36 align=right style='height:12.0pt' x:num>2</td>
+  <td class=xl34>Stardog Champion - Mother Love Bone</td>
+  <td class=xl35>Dan</td>
+  <td class=xl35>Bobby</td>
+  <td class=xl37>Bruce Detore</td>
+  <td class=xl38>Spot</td>
+  <td colspan=3 class=xl35 style='mso-ignore:colspan'>&nbsp;</td>
+  <td colspan=3 class=xl34 style='mso-ignore:colspan'>&nbsp;</td>
+ </tr>
+ <tr height=16 style='mso-height-source:userset;height:12.0pt'>
+  <td height=16 class=xl29 align=right style='height:12.0pt' x:num>3</td>
+  <td class=xl24>Tribe - Gruntruck</td>
+  <td class=xl25>Dan</td>
+  <td class=xl25>Bobby</td>
+  <td class=xl33>Bruce Detore</td>
+  <td class=xl25>Spot</td>
+  <td colspan=3 class=xl25 style='mso-ignore:colspan'></td>
+  <td colspan=3 class=xl24 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr class=xl40 height=16 style='mso-height-source:userset;height:12.0pt'>
+  <td height=16 class=xl36 align=right style='height:12.0pt' x:num>4</td>
+  <td class=xl34>Nearly Lost You - Screaming Trees</td>
+  <td class=xl35>Dan</td>
+  <td class=xl35>Bobby</td>
+  <td class=xl37>Bruce Detore</td>
+  <td class=xl35>Spot</td>
+  <td colspan=3 class=xl35 style='mso-ignore:colspan'>&nbsp;</td>
+  <td colspan=3 class=xl34 style='mso-ignore:colspan'>&nbsp;</td>
+ </tr>
+ <tr height=16 style='mso-height-source:userset;height:12.0pt'>
+  <td height=16 class=xl29 align=right style='height:12.0pt' x:num>5</td>
+  <td class=xl24>Needle Lies - Queensryche</td>
+  <td class=xl25>Neil Babbit</td>
+  <td class=xl39>Johnny</td>
+  <td class=xl33>Rawkgrrl</td>
+  <td class=xl39>Stefan Olsson</td>
+  <td class=xl25>Dean Babbit</td>
+  <td colspan=2 class=xl25 style='mso-ignore:colspan'></td>
+  <td colspan=3 class=xl24 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr class=xl40 height=16 style='mso-height-source:userset;height:12.0pt'>
+  <td height=16 class=xl36 align=right style='height:12.0pt' x:num>6</td>
+  <td class=xl34>Mob Rules - Black Sabbath</td>
+  <td class=xl35>Neil Babbit</td>
+  <td class=xl38>Johnny</td>
+  <td class=xl37>Rawkgrrl</td>
+  <td class=xl38>Stefan Olsson</td>
+  <td class=xl35>Dean Babbit</td>
+  <td colspan=2 class=xl35 style='mso-ignore:colspan'>&nbsp;</td>
+  <td colspan=3 class=xl34 style='mso-ignore:colspan'>&nbsp;</td>
+ </tr>
+ <tr height=16 style='mso-height-source:userset;height:12.0pt'>
+  <td height=16 class=xl29 align=right style='height:12.0pt' x:num>7</td>
+  <td class=xl24>Riding On The Wind<span style='mso-spacerun:yes'>  </span>-
+  Judas Priest</td>
+  <td class=xl25>Neil Babbit</td>
+  <td class=xl39>Johnny</td>
+  <td class=xl33>Rawkgrrl</td>
+  <td class=xl39>Stefan Olsson</td>
+  <td class=xl25>Dean Babbit</td>
+  <td colspan=2 class=xl25 style='mso-ignore:colspan'></td>
+  <td colspan=3 class=xl24 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr class=xl40 height=16 style='mso-height-source:userset;height:12.0pt'>
+  <td height=16 class=xl36 align=right style='height:12.0pt' x:num>8</td>
+  <td class=xl34>Man or Ash - Corrosion of Conformity</td>
+  <td class=xl38>Keef</td>
+  <td class=xl37>Bloody</td>
+  <td class=xl38>R. Maeder</td>
+  <td class=xl35>J. Adrian Esq.</td>
+  <td class=xl35>R. Maeder</td>
+  <td colspan=2 class=xl35 style='mso-ignore:colspan'>&nbsp;</td>
+  <td colspan=3 class=xl34 style='mso-ignore:colspan'>&nbsp;</td>
+ </tr>
+ <tr height=16 style='mso-height-source:userset;height:12.0pt'>
+  <td height=16 class=xl29 align=right style='height:12.0pt' x:num>9</td>
+  <td class=xl41>Pinball Map - In Flames</td>
+  <td class=xl39>Double J</td>
+  <td class=xl33>Bloody</td>
+  <td class=xl39>R. Maeder</td>
+  <td class=xl25>Allen Matilla</td>
+  <td class=xl25>R. Maeder</td>
+  <td colspan=2 class=xl25 style='mso-ignore:colspan'></td>
+  <td colspan=3 class=xl24 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr class=xl40 height=16 style='mso-height-source:userset;height:12.0pt'>
+  <td height=16 class=xl36 align=right style='height:12.0pt' x:num>10</td>
+  <td class=xl42>Better Than - Static Bloom</td>
+  <td class=xl35>Ken Henningsen</td>
+  <td class=xl37>Chewbacca</td>
+  <td class=xl38>Mike Milsom</td>
+  <td class=xl35>Paul Souyoultzis</td>
+  <td colspan=3 class=xl35 style='mso-ignore:colspan'>&nbsp;</td>
+  <td colspan=3 class=xl34 style='mso-ignore:colspan'>&nbsp;</td>
+ </tr>
+ <tr height=16 style='mso-height-source:userset;height:12.0pt'>
+  <td height=16 class=xl29 style='height:12.0pt'></td>
+  <td class=xl41></td>
+  <td colspan=2 class=xl25 style='mso-ignore:colspan'></td>
+  <td class=xl33></td>
+  <td colspan=3 class=xl25 style='mso-ignore:colspan'></td>
+  <td colspan=4 class=xl24 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=16 style='mso-height-source:userset;height:12.0pt'>
+  <td height=16 colspan=6 class=xl24 style='height:12.0pt;mso-ignore:colspan'></td>
+  <td class=xl25></td>
+  <td colspan=5 class=xl24 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=16 style='mso-height-source:userset;height:12.0pt'>
+  <td height=16 colspan=6 class=xl24 style='height:12.0pt;mso-ignore:colspan'></td>
+  <td colspan=2 class=xl25 style='mso-ignore:colspan'></td>
+  <td colspan=4 class=xl24 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=16 style='mso-height-source:userset;height:12.0pt'>
+  <td height=16 class=xl29 style='height:12.0pt'></td>
+  <td colspan=5 class=xl24 style='mso-ignore:colspan'></td>
+  <td class=xl25></td>
+  <td colspan=5 class=xl24 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=16 style='mso-height-source:userset;height:12.0pt'>
+  <td height=16 class=xl29 style='height:12.0pt'></td>
+  <td colspan=5 class=xl24 style='mso-ignore:colspan'></td>
+  <td class=xl25></td>
+  <td colspan=5 class=xl24 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=16 style='mso-height-source:userset;height:12.0pt'>
+  <td height=16 colspan=6 class=xl24 style='height:12.0pt;mso-ignore:colspan'></td>
+  <td class=xl25></td>
+  <td colspan=5 class=xl24 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=16 style='mso-height-source:userset;height:12.0pt'>
+  <td height=16 colspan=6 class=xl24 style='height:12.0pt;mso-ignore:colspan'></td>
+  <td class=xl25></td>
+  <td colspan=5 class=xl24 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=16 style='mso-height-source:userset;height:12.0pt'>
+  <td height=16 colspan=6 class=xl24 style='height:12.0pt;mso-ignore:colspan'></td>
+  <td class=xl25></td>
+  <td colspan=5 class=xl24 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=16 style='mso-height-source:userset;height:12.0pt'>
+  <td height=16 colspan=6 class=xl24 style='height:12.0pt;mso-ignore:colspan'></td>
+  <td class=xl25></td>
+  <td colspan=5 class=xl24 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=16 style='mso-height-source:userset;height:12.0pt'>
+  <td height=16 colspan=6 class=xl24 style='height:12.0pt;mso-ignore:colspan'></td>
+  <td class=xl25></td>
+  <td colspan=5 class=xl24 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=16 style='mso-height-source:userset;height:12.0pt'>
+  <td height=16 colspan=6 class=xl24 style='height:12.0pt;mso-ignore:colspan'></td>
+  <td class=xl25></td>
+  <td colspan=5 class=xl24 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=16 style='mso-height-source:userset;height:12.0pt'>
+  <td height=16 colspan=6 class=xl24 style='height:12.0pt;mso-ignore:colspan'></td>
+  <td class=xl25></td>
+  <td colspan=5 class=xl24 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=16 style='mso-height-source:userset;height:12.0pt'>
+  <td height=16 colspan=6 class=xl24 style='height:12.0pt;mso-ignore:colspan'></td>
+  <td class=xl25></td>
+  <td colspan=5 class=xl24 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=16 style='mso-height-source:userset;height:12.0pt'>
+  <td height=16 colspan=6 class=xl24 style='height:12.0pt;mso-ignore:colspan'></td>
+  <td class=xl25></td>
+  <td colspan=5 class=xl24 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=16 style='mso-height-source:userset;height:12.0pt'>
+  <td height=16 colspan=6 class=xl24 style='height:12.0pt;mso-ignore:colspan'></td>
+  <td class=xl25></td>
+  <td colspan=5 class=xl24 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=16 style='mso-height-source:userset;height:12.0pt'>
+  <td height=16 colspan=6 class=xl24 style='height:12.0pt;mso-ignore:colspan'></td>
+  <td class=xl25></td>
+  <td colspan=5 class=xl24 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=16 style='mso-height-source:userset;height:12.0pt'>
+  <td height=16 colspan=3 class=xl24 style='height:12.0pt;mso-ignore:colspan'></td>
+  <td colspan=3 class=xl29 style='mso-ignore:colspan'></td>
+  <td class=xl25></td>
+  <td colspan=4 class=xl24 style='mso-ignore:colspan'></td>
+  <td class=xl24><!-----------------------------><!--END OF OUTPUT FROM EXCEL PUBLISH AS WEB PAGE WIZARD--><!-----------------------------></td>
+ </tr>
+ <![if supportMisalignedColumns]>
+ <tr height=0 style='display:none'>
+  <td width=29 style='width:22pt'></td>
+  <td width=250 style='width:188pt'></td>
+  <td width=106 style='width:80pt'></td>
+  <td width=110 style='width:83pt'></td>
+  <td width=116 style='width:87pt'></td>
+  <td width=105 style='width:79pt'></td>
+  <td width=113 style='width:85pt'></td>
+  <td width=99 style='width:74pt'></td>
+  <td width=106 style='width:80pt'></td>
+  <td width=85 style='width:64pt'></td>
+  <td width=139 style='width:104pt'></td>
+  <td width=139 style='width:104pt'></td>
+ </tr>
+ <![endif]>
+</table>
+
+</body>
+
+</html>
